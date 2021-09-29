@@ -1,0 +1,119 @@
+// Variables
+@import "variables";
+
+
+body {
+  background-color: $dark-blue;
+
+  font-family: degular, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Frame */
+#frame-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#star-1 {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+/* Text - center */
+h1 {
+  font-family: degular-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $light-blue;
+  font-size: 50px;
+  width: 667px;
+  height: 140px;
+  text-align: justify;
+  line-height: 90%;
+
+}
+
+#line-bottom {
+  text-align: center;
+}
+
+.text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#logo {
+  width: 210px;
+  height: 65px;
+  margin-bottom: 20px;
+}
+
+#star-2 {
+  position: absolute;
+  top: 80px;
+  left: -53px;
+  z-index: -1;
+}
+
+#star-3 {
+  position: absolute;
+  top: 200px;
+  right: -70px;
+}
+
+/* Text - bottom */
+.text-bottom {
+  position: relative;
+  width: 510px;
+  height: 165px;
+  top: 800px;
+  left: 48%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+#ellipse-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#rectangle-1 {
+  background-color: $dark-orange;
+  width: 472px;
+  height: 78px;
+  position: absolute;
+  left: 15%;
+  bottom: 43%;
+  -moz-transform: rotate(359deg);
+  -webkit-transform: rotate(359deg);
+  -o-transform: rotate(359deg);
+  -ms-transform: rotate(359deg);
+  transform: rotate(359deg);
+}
+
+#rectangle-2 {
+  background-color: $light-orange;
+  width: 441px;
+  height: 77px;
+  color: $white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 19%;
+  bottom: 57%;
+  -moz-transform: rotate(357deg);
+  -webkit-transform: rotate(357deg);
+  -o-transform: rotate(357deg);
+  -ms-transform: rotate(357deg);
+  transform: rotate(357deg);
+}
